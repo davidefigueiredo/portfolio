@@ -1,6 +1,7 @@
 import React from "react";
 import { useViewportScroll, useTransform, motion } from "framer-motion";
 import CirclesAfterScreen from "./circlesAfterScreen";
+import { useCallback } from "react";
 import "./styles.css";
 
 export const HeroImageSequence = () => {
@@ -8,9 +9,9 @@ export const HeroImageSequence = () => {
   const { scrollYProgress } = useViewportScroll();
   const frames = useTransform(scrollYProgress, [0, 0.4], [0, 26]);
 
-  const handleScroll = () => {
+  const handleScroll = useCallback(() => {
     setFrame(Math.round(frames.get()));
-  };
+  }, [frames]);
 
   React.useEffect(() => {
     window.addEventListener("scroll", handleScroll);
