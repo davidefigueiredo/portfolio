@@ -7,7 +7,7 @@ function App() {
       <HeroImageSequence />
       <div
         style={{ top: "35%" }}
-        className="absolute top-0 my-10 left-1/4 px-8 md:px-24 lg:px-40 xl:px-47 2xl:mx-24 animate-fade-in-down"
+        className="absolute top-0 my-10 left-1/4 md:px-24 lg:px-40 xl:px-47 2xl:mx-24 animate-fade-in-down"
       >
         <h4 className="mb-3 text-3xl md:text-5xl font-semibold text-white">
           Davide Areias
