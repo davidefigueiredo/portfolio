@@ -21,12 +21,10 @@ function App() {
         style={{ top: "35%" }}
         className="absolute top-0 my-10 left-1/4 sm:px-16 md:px-24 lg:px-40 xl:px-52 2xl:mx-24 animate-fade-in-down"
       >
-        <h4 className="mb-3 text-4xl md:text-5xl font-semibold text-white">
+        <p className="mb-3 text-3xl md:text-5xl font-semibold text-white text-center">
           Davide Areias
-        </h4>
-        <p className="text-white text-xl md:text-xl ml-16 md:ml-24">
-          Portfólio
         </p>
+        <p className="text-white text-center text-xl md:text-xl">Portfólio</p>
       </div>
       <Timeline />
       <div className="text-center h-screen">
