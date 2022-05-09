@@ -7,7 +7,7 @@ import "./styles.css";
 export const HeroImageSequence = () => {
   const [frame, setFrame] = React.useState(0);
   const { scrollYProgress } = useViewportScroll();
-  const frames = useTransform(scrollYProgress, [0, 0.4], [0, 26]);
+  const frames = useTransform(scrollYProgress, [0, 0.4], [0, 23]);
 
   const handleScroll = useCallback(() => {
     setFrame(Math.round(frames.get()));
