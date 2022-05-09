@@ -21,7 +21,7 @@ export const HeroImageSequencePC = () => {
 
   const preloadImages = () => {
     let images = [];
-    for (var i = 5; i < 26; i++) {
+    for (var i = 5; i < 23; i++) {
       images.push(
         <img
           key={i}
