@@ -19,12 +19,12 @@ function App() {
       </MobileView>
       <div
         style={{ top: "35%" }}
-        className="absolute top-0 my-10 left-1/4 md:px-24 lg:px-40 xl:px-47 2xl:mx-24 animate-fade-in-down"
+        className="absolute top-0 my-10 left-1/4 sm:px-16 md:px-24 lg:px-40 xl:px-52 2xl:mx-24 animate-fade-in-down"
       >
-        <h4 className="mb-3 text-3xl md:text-5xl font-semibold text-white">
+        <h4 className="mb-3 text-4xl md:text-5xl font-semibold text-white">
           Davide Areias
         </h4>
-        <p className="text-white text-lg md:text-xl ml-16 md:ml-24">
+        <p className="text-white text-xl md:text-xl ml-16 md:ml-24">
           Portfólio
         </p>
       </div>
