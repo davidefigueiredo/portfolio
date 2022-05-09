@@ -4,7 +4,7 @@ import CirclesAfterScreen from "./circlesAfterScreen";
 import { useCallback } from "react";
 import "./styles.css";
 
-export const HeroImageSequence = () => {
+export const HeroImageSequencePC = () => {
   const [frame, setFrame] = React.useState(0);
   const { scrollYProgress } = useViewportScroll();
   const frames = useTransform(scrollYProgress, [0, 0.4], [0, 23]);
@@ -25,7 +25,7 @@ export const HeroImageSequence = () => {
       images.push(
         <img
           key={i}
-          src={`/frames/00${i < 10 ? "0" + i : i}.png`}
+          src={`/frames/pc/00${i < 10 ? "0" + i : i}.png`}
           alt=""
           style={{ visibility: "hidden" }}
         />
@@ -38,7 +38,10 @@ export const HeroImageSequence = () => {
     <motion.div className="App">
       {preloadImages()}
       {scrollYProgress.current < 0.38 ? (
-        <img alt="" src={`/frames/00${frame < 10 ? "0" + frame : frame}.png`} />
+        <img
+          alt=""
+          src={`/frames/pc/00${frame < 10 ? "0" + frame : frame}.png`}
+        />
       ) : (
         <CirclesAfterScreen />
       )}
@@ -46,4 +49,4 @@ export const HeroImageSequence = () => {
   );
 };
 
-export default HeroImageSequence;
+export default HeroImageSequencePC;

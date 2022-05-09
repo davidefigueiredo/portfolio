@@ -1,10 +1,22 @@
-import HeroImageSequence from "./Components/index";
+import HeroImageSequencePC from "./Components/indexPC";
+import HeroImageSequenceMobile from "./Components/indexMobile";
 import Timeline from "./Components/timeline";
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile,
+} from "react-device-detect";
 
 function App() {
   return (
     <div>
-      <HeroImageSequence />
+      <BrowserView>
+        <HeroImageSequencePC />
+      </BrowserView>
+      <MobileView>
+        <HeroImageSequenceMobile />
+      </MobileView>
       <div
         style={{ top: "35%" }}
         className="absolute top-0 my-10 left-1/4 md:px-24 lg:px-40 xl:px-47 2xl:mx-24 animate-fade-in-down"
