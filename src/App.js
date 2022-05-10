@@ -28,7 +28,7 @@ function App() {
           <p className="mb-3 text-3xl md:text-5xl font-semibold text-white text-center">
             Davide Areias
           </p>
-          <p className="text-white text-center text-xl md:text-xl">Portfólio</p>
+          <p className="text-white text-center text-xl md:text-xl">Portfolio</p>
         </Fade>
       </div>
       <Timeline />
