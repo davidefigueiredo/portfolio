@@ -85,7 +85,9 @@ const Timeline = () => {
         </div>
       </div>
       <Jello>
-        <h3 className="text-8xl font-bold text-center  pl-1">Experience</h3>
+        <h3 className="text-6xl lg:text-8xl font-bold text-center pl-1">
+          Experience
+        </h3>
       </Jello>
       <div class="flex items-center justify-center">
         <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-black">
@@ -107,8 +109,8 @@ const Timeline = () => {
               <img
                 src={BotOlympics}
                 style={{
-                  width: 270,
-                  height: 250,
+                  width: 220,
+                  height: 200,
                   position: "inherit",
                   borderRadius: 15,
                   marginTop: 10,
@@ -151,8 +153,8 @@ const Timeline = () => {
               <img
                 src={Ebec}
                 style={{
-                  width: 350,
-                  height: 200,
+                  width: 300,
+                  height: 150,
                   position: "inherit",
                   borderRadius: 15,
                   marginTop: 10,
@@ -202,7 +204,9 @@ const Timeline = () => {
         </div>
       </div>
       <Jello>
-        <h3 className="text-8xl font-bold text-center pl-1">Awards</h3>
+        <h3 className="text-6xl lg:text-8xl font-bold text-center pl-1">
+          Awards
+        </h3>
       </Jello>
       <div class="flex items-center justify-center">
         <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-black">
@@ -263,8 +267,8 @@ const Timeline = () => {
               <img
                 src={Ebec}
                 style={{
-                  width: 350,
-                  height: 200,
+                  width: 300,
+                  height: 150,
                   position: "inherit",
                   borderRadius: 15,
                   marginTop: 10,
