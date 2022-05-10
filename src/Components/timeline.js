@@ -55,7 +55,7 @@ const Timeline = () => {
             </div>
           </div>
           <div class="flex md:contents">
-            <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+            <div class="col-start-5 col-end-6 md:mx-auto relative">
               <div class="w-10 h-10 rounded-full bg-indigo-500 mt-9">
                 <h1 className="text-sm text-white pt-2.5 pl-1">2019</h1>
               </div>
@@ -110,7 +110,7 @@ const Timeline = () => {
                 src={BotOlympics}
                 style={{
                   width: 220,
-                  height: 200,
+                  height: 203,
                   position: "inherit",
                   borderRadius: 15,
                   marginTop: 10,
@@ -127,7 +127,7 @@ const Timeline = () => {
             </div>
           </div>
           <div class="flex md:contents">
-            <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+            <div class="col-start-5 col-end-6 md:mx-auto relative">
               <div class="w-10 h-10 rounded-full bg-indigo-500 mt-9">
                 <h1 className="text-sm text-white pt-2.5 pl-1">2022</h1>
               </div>
@@ -153,7 +153,7 @@ const Timeline = () => {
               <img
                 src={Ebec}
                 style={{
-                  width: 300,
+                  width: 270,
                   height: 150,
                   position: "inherit",
                   borderRadius: 15,
@@ -195,7 +195,7 @@ const Timeline = () => {
                 }}
               />
             </div>
-            <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+            <div class="col-start-5 col-end-6  md:mx-auto relative">
               <div class="w-10 h-10 rounded-full bg-pink-500 mt-9">
                 <h1 className="text-sm text-white pt-2.5 pl-1">2022</h1>
               </div>
@@ -244,7 +244,7 @@ const Timeline = () => {
             </div>
           </div>
           <div class="flex md:contents">
-            <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+            <div class="col-start-5 col-end-6  md:mx-auto relative">
               <div class="w-10 h-10 rounded-full bg-indigo-500 mt-9">
                 <h1 className="text-sm text-white pt-2.5 pl-1">2022</h1>
               </div>
@@ -267,7 +267,7 @@ const Timeline = () => {
               <img
                 src={Ebec}
                 style={{
-                  width: 300,
+                  width: 270,
                   height: 150,
                   position: "inherit",
                   borderRadius: 15,
@@ -300,7 +300,7 @@ const Timeline = () => {
                 }}
               />
             </div>
-            <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+            <div class="col-start-5 col-end-6 md:mx-auto relative">
               <div class="w-10 h-10 rounded-full bg-pink-500 mt-9">
                 <h1 className="text-sm text-white pt-2.5 pl-1">2022</h1>
               </div>
