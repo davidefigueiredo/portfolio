@@ -15,7 +15,9 @@ const Timeline = () => {
     <div>
       <div class="pt-80">
         <Jello>
-          <h3 className="text-8xl font-bold text-center pl-1">Education</h3>
+          <h3 className="text-6xl lg:text-8xl font-bold text-center pl-1">
+            Education
+          </h3>
         </Jello>
       </div>
 
