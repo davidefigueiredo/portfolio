@@ -9,6 +9,7 @@ import BotOlympics from "./img/botOlympics.png";
 import Ebec from "./img/ebec.png";
 import Best from "./img/best.jpg";
 import BotOlympicsAward from "./img/botOlympicsAward.jpg";
+import NwAward from "./img/nw.png";
 
 const Timeline = () => {
   return (
@@ -290,9 +291,9 @@ const Timeline = () => {
                 </p>
               </Fade>
               <img
-                src={Best}
+                src={NwAward}
                 style={{
-                  width: 200,
+                  width: 230,
                   height: 200,
                   position: "inherit",
                   borderRadius: 15,
