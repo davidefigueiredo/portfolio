@@ -19,7 +19,7 @@ function App() {
       </MobileView>
       <div
         style={{ top: "35%" }}
-        className="absolute top-0 my-10 left-1/4 sm:px-16 md:px-24 lg:px-40 xl:px-52 2xl:mx-24 animate-fade-in-down"
+        className="absolute top-0 my-10 left-1/4 sm:px-16 md:px-24 lg:px-40 2xl:mx-24 animate-fade-in-down"
       >
         <p className="mb-3 text-3xl md:text-5xl font-semibold text-white text-center">
           Davide Areias
