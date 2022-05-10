@@ -1,6 +1,7 @@
 import HeroImageSequencePC from "./Components/indexPC";
 import HeroImageSequenceMobile from "./Components/indexMobile";
 import Timeline from "./Components/timeline";
+import Footer from "./Components/footer";
 import {
   BrowserView,
   MobileView,
@@ -31,11 +32,7 @@ function App() {
         </Fade>
       </div>
       <Timeline />
-      <div className="text-center h-screen">
-        <p className="text-black text-3xl md:text-5xl font-semibold">
-          Projetos
-        </p>
-      </div>
+      <Footer />
     </div>
   );
 }
