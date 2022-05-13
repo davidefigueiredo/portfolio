@@ -1,7 +1,6 @@
 import React from "react";
 
 import Fade from "react-reveal/Fade";
-import Jello from "react-reveal/Jello";
 
 import liceu from "./img/liceu.jpg";
 import uni from "./img/dei.jpg";
@@ -15,11 +14,9 @@ const Timeline = () => {
   return (
     <div>
       <div class="pt-80">
-        <Jello>
-          <h3 className="text-6xl lg:text-8xl font-bold text-center pl-1">
-            Education
-          </h3>
-        </Jello>
+        <h3 className="text-6xl lg:text-8xl font-bold text-center pl-1">
+          Education
+        </h3>
       </div>
 
       <div class="flex items-center justify-center pb-20">
@@ -85,11 +82,9 @@ const Timeline = () => {
           </div>
         </div>
       </div>
-      <Jello>
-        <h3 className="text-6xl lg:text-8xl font-bold text-center pl-1">
-          Experience
-        </h3>
-      </Jello>
+      <h3 className="text-6xl lg:text-8xl font-bold text-center pl-1">
+        Experience
+      </h3>
       <div class="flex items-center justify-center">
         <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-black">
           <div class="flex flex-row-reverse md:contents">
@@ -204,11 +199,9 @@ const Timeline = () => {
           </div>
         </div>
       </div>
-      <Jello>
-        <h3 className="text-6xl lg:text-8xl font-bold text-center pl-1">
-          Awards
-        </h3>
-      </Jello>
+      <h3 className="text-6xl lg:text-8xl font-bold text-center pl-1">
+        Awards
+      </h3>
       <div class="flex items-center justify-center">
         <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-black">
           <div class="flex flex-row-reverse md:contents">
