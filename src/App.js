@@ -21,15 +21,19 @@ function App() {
         <HeroImageSequenceMobile />
       </MobileView>
       <div
-        style={{ top: "35%" }}
-        className="absolute top-0 my-10 left-1/4 sm:px-16 md:px-24 lg:px-40 2xl:mx-24 animate-fade-in-down"
+        style={{ position: "absolute", left: "50%", top: "35%" }}
+        className="animate-fade-in-down"
       >
-        <Fade bottom big cascade>
-          <p className="mb-3 text-3xl md:text-5xl font-semibold text-white text-center">
-            Davide Areias
-          </p>
-          <p className="text-white text-center text-xl md:text-xl">Portfolio</p>
-        </Fade>
+        <div style={{ position: "relative", left: "-56%" }}>
+          <Fade bottom big cascade>
+            <p className="mb-3 text-3xl md:text-5xl font-semibold text-white text-center">
+              Davide Areias
+            </p>
+            <p className="text-white text-center text-xl md:text-xl">
+              Portfolio
+            </p>
+          </Fade>
+        </div>
       </div>
       <Timeline />
       <Footer />

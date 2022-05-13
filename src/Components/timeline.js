@@ -172,7 +172,7 @@ const Timeline = () => {
                   students, that organize events like EBEC. Eventually I was
                   accepted and currently located at CR, Corporate Relations
                   Department. I also worked on IT, Informatics and Technology
-                  Department on a project called ExpoCareer,
+                  Department on a project called ExpoCareer.
                   <a
                     class="font-bold"
                     target="_blank"
